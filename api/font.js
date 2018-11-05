@@ -13,14 +13,14 @@ const loadFile = (filename, filetype) =>{
     if (typeof fileref!="undefined")
         document.getElementsByTagName("head")[0].appendChild(fileref)
 },
-block = ['https://test.com'],
-url = location.href;
+block = ['https://dhanush427.github.io/'],
+url = window.location.hostname;
 
 for (let i = 0; i < block.length; i++) {
    if (url === block[i]) {
-       alert('origin-request-blocked')
+    loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
    }
    else {
-    loadFile('font', 'css');
+    loadFile('https://sethusenthil.com/Product-Sans/api/unfont.css', 'css');
    }
 }
