@@ -21,6 +21,6 @@ for (let i = 0; i < block.length; i++) {
     loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
    }
    else {
-    loadFile('https://sethusenthil.com/Product-Sans/api/unfont.css', 'css');
+    loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
    }
 }
