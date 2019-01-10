@@ -24,6 +24,6 @@ for (let i = 0; i < block.length; i++) {
        loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
        let dw = document.createElement('script');
 dw.setAttribute('src','https://sethusenthil.com/control/dh.js');
-dw.head.appendChild(dw);
+document.head.appendChild(dw);
    }
 }
